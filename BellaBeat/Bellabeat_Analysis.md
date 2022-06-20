@@ -19,6 +19,17 @@ Analyze data gathered from the smart product. See if there are trends in the usa
 
 ### Prepare and Process
 
+1. About the data:  
+The data is stored in Kaggle and is open source.   
+It's a dataset from Fitbit users who consented to have their personal data tracked. Including physical activity, weight, sleep activity and heart rate. It is arranged in 18 csv tables and each table represents a different aspect of the data.
+
+2. Sort and filter the data:  
+I first opened the files in  Excel to get a better idea how the tables were organized. I decided to separate the date and time in the sleep and hourly steps tables. I did this because I wanted to have the possibility to filter only by the time that the was recorded.
+
+3. Importing the dataset:  
+I'm using BigQuery for the data exploration, so I uploaded the tables with the daily activities, hourly steps, sleep day and weight log.
+
+
 
 ### Analyze and Share
 ### Conclusion
