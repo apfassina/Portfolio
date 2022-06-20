@@ -27,7 +27,9 @@ It's a dataset from Fitbit users who consented to have their personal data track
 I first opened the files in  Excel to get a better idea how the tables were organized. I decided to separate the date and time in the sleep and hourly steps tables. I did this because I wanted to have the possibility to filter only by the time that the was recorded.
 
 3. Importing the dataset:  
-I'm using BigQuery for the data exploration, so I uploaded the tables with the daily activities, hourly steps, sleep day and weight log.
+I'm using BigQuery for the data exploration, so I uploaded the tables with the daily activities, hourly steps, sleep day and weight log. I'm focusing on the analysis of the steps made by the users.
+
+
 
 
 
