@@ -29,7 +29,7 @@ I first opened the files in  Excel to get a better idea how the tables were orga
 3. Importing the dataset:  
 I'm using BigQuery for the data exploration, so I uploaded the tables with the daily activities, hourly steps, sleep day and weight log. I'm focusing on the analysis of the steps made by the users.
 
-
+4. Prepare for analysis:  
 
 
 
