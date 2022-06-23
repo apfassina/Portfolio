@@ -67,7 +67,7 @@ For lowest steps average and lowest steps total, both occured in the same weekda
 
 In the graph below, we can see how the average of steps of participants behaved by time of day.
 
-<img src= https://user-images.githubusercontent.com/100497010/175323663-fa7d5b6a-030c-4f18-b0ad-756cc9d74032.png width="600" />
+<img src= https://user-images.githubusercontent.com/100497010/175323663-fa7d5b6a-030c-4f18-b0ad-756cc9d74032.png width="700" />
 
 When looking at the graph we can see that the time of day that has the highest average is 6PM and the lowest is 3AM. We can see that there's a increase of steps at 12PM, then a drop at 3PM. After that there's another increase at 6PM, which is the hour with the highest average of steps. From 12AM to 5AM there's only a small amount of steps counted. And 3PM is the time that the average of steps is the lowest during business hours (considering 9AM to 5PM).
 
@@ -75,13 +75,13 @@ When looking at the graph we can see that the time of day that has the highest a
 
 As for what it means the amount of steps each participant took, we can see in the graph below.
 
-Study of Steps <img src= https://user-images.githubusercontent.com/100497010/175323640-45fef3af-5f4d-478b-b37e-5a1a528a88c9.png width="900" />
+<img src= https://user-images.githubusercontent.com/100497010/175323640-45fef3af-5f4d-478b-b37e-5a1a528a88c9.png width="900" />
 
 
-It's possible to see that the total of steps has a correlation with the total distance. But when we look to active minutes, we can see that having the highest step count doesn't mean having the highest active minutes. The participant with the most active minutes, has less than half of the amount of steps of the one with the most steps. 
+It's possible to see that the total of steps has a correlation with the total distance. But when we look to active minutes, we can see that having the highest step count doesn't mean having the highest active minutes. The participant with the most active minutes, has less than half of the amount of steps of the one with the most steps. Again we can see the same when we compare total steps with calories. The one with most calories spent is not the one who had the highest step count.
 
-
-Calories x active min <img src= https://user-images.githubusercontent.com/100497010/175323697-ec5f36dd-ad32-4ac8-b4c7-4ea40b067ef8.png width="500" />
 
 ### Conclusion
+
+
 
