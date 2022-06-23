@@ -9,7 +9,7 @@ Founded by Urška Sršen and Sando Mur, Bellabeat is a high-tech company that cr
 
 ### Business Task
 
-Analyze data gathered from the smart product. See if there are trends in the usage and if they can be applied to Bellabeat customers. And also if these trends can somehow influence the marketing strategy.
+Analyze data gathered from the smart product. See if there are trends in the usage and if they can be applied to Bellabeat customers. And also if these trends can somehow influence the comapny's marketing strategy.
 
 #### Stakeholders
 * Urška Sršen and Sando Mur - cofounders
@@ -27,11 +27,35 @@ It's a dataset from Fitbit users who consented to have their personal data track
 I first opened the files in  Excel to get a better idea how the tables were organized. I decided to separate the date and time in the sleep and hourly steps tables. I did this because I wanted to have the possibility to filter only by the time that the was recorded.
 
 3. Importing the dataset:  
-I'm using BigQuery for the data exploration, so I uploaded the tables with the daily activities, hourly steps, sleep day and weight log. I'm focusing on the analysis of the steps made by the users.
+I'm using BigQuery for the data exploration, so I uploaded the tables with the daily activities, hourly steps, sleep day and weight log. In this analysis I'm focusing on the steps made by the users.
 
 4. Prepare for analysis:  
+I wrote serval queries to understand better the data and see how I could organize it for my data vizualization.  [Here](https://github.com/apfassina/Portfolio/blob/main/BellaBeat/BellaBeat_SQL.sql) you can see all the queries I made in BigQuery.
 
-
+5. Queries findings:
+* There were 33 users and the study was in a 31 day period.
+* Total of sedentary minutes per day being 1440 (24h) does not mean that there was no step activity or distance tracked.
+* To get not active days I selected the activity days that the total steps, total distance were 0 and sedentary minutes were 1440. That showed me that 15 users had at least a not active day.
+* Checked how many users recorded data for sleep, weight and hourly steps. For sleep only 24 users recorded data, for weight only 8 and all users recorded hourly steps. I decided not to use the sleep and weight records because they do not represent all of the users.
+* In the hourly steps table, I identified that the 'Time' column wasn't in a time format. So I used parse_time as new_time to be able to use it later.
+* I summarized the daily activity table in totals per Id. Giving me the sum of total steps, sum of calories, sum of sedentary minutes, sum of active minutes (very, fairly and lightly active minutes) and the sum of the distance.
+* After geting the summary I then joined with a table that had counted the total of days that the users were active and not active, and the active rate.
+* I then used the daily activity, the hourly steps and summary of activity in Tableau.
 
 ### Analyze and Share
+
+*You can find the Tableau Dasboard here*
+
+
+Participation by Id <img src= https://user-images.githubusercontent.com/100497010/175321242-e9e2c0ff-9a9b-4fb5-88fb-41477f1c3440.png height="400" />
+
+Study of Steps <img src= https://user-images.githubusercontent.com/100497010/175323640-45fef3af-5f4d-478b-b37e-5a1a528a88c9.png width="900" />
+
+Avg Steps per hour <img src= https://user-images.githubusercontent.com/100497010/175323663-fa7d5b6a-030c-4f18-b0ad-756cc9d74032.png width="600" />
+
+Steps per weekday <img src= https://user-images.githubusercontent.com/100497010/175323677-ee4e818c-7421-44e2-9510-bc5a9d06a8c3.png width="500" />
+
+Calories x active min <img src= https://user-images.githubusercontent.com/100497010/175323697-ec5f36dd-ad32-4ac8-b4c7-4ea40b067ef8.png width="500" />
+
 ### Conclusion
+
