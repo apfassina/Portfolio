@@ -87,9 +87,13 @@ There are some interesting insights looking at this data. But because the sample
 #### Recomendations
 
 * Current customer engagement: 
-+ Use the Beallabeat app to have customers set goals for themselves.
-+ Send them notifications during the times that the average step count was the lowest, to encourage achieving their goal.
-+ Recommend activities via app for the day it has less steps (Sunday)
+  + Use the Beallabeat app to have customers set goals for themselves. And even competitions with friends.
+  + Send them notifications during the times that the average step count was the lowest, to encourage achieving their goal.
+  + Recommend activities via app for the day it has less steps (Sunday)
 
 * Reaching potential customers:
-+ 
+  + Knowing when the lowest amount of steps are, they could share these lowest times/dates and promote the products/app to potential customers. And suggest to them to use Bellabeat products to understand their habits better and if they are doing the same average of steps as others.
+
+
+Thank you for reading my Bellabeat case study!  
+This is my first project in data analytics and I would appreciate any feedback.
