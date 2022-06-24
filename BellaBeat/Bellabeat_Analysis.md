@@ -83,5 +83,6 @@ It's possible to see that the total of steps has a correlation with the total di
 
 ### Conclusion
 
-
+* To keep curent customers engaged, I would recomend notifications on the app during the hours that there's a lower amount of steps. Also, I would recommend that they allow their customers to set a daily or weekly goal, and send them reminders about how much left is still to go to achieve their goal. Notifications to increase steps can be done in the morning, remembering the step goal and around 3PM, that is the time that the average steps are the lowest. Sundays being the weekday with the lower step average should also have more notifications/ reminders in the app.
+* To reach potential customers
 
