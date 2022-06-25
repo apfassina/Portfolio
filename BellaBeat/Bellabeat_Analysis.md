@@ -9,7 +9,7 @@ Founded by Urška Sršen and Sando Mur, Bellabeat is a high-tech company that cr
 
 ### Business Task
 
-Analyze data gathered from the smart product. See if there are trends in the usage and if they can be applied to Bellabeat customers. And also if these trends can somehow influence the comapny's marketing strategy.
+Analyze data gathered from the smart product. See if there are trends in the usage and if they can be applied to Bellabeat customers. And also if these trends can somehow influence the company's marketing strategy.
 
 #### Stakeholders
 * Urška Sršen and Sando Mur - cofounders
