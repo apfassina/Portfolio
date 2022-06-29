@@ -72,7 +72,7 @@ In the queries performed, the data was explored and manipulated to be analyzed. 
 
 ### Share
 
-*You can find the strudy in Tableau [here](https://public.tableau.com/views/bellabeat_case_study/BellabeatDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)*
+*You can find the study in Tableau [here](https://public.tableau.com/views/bellabeat_case_study/BellabeatDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)*
 
 
 When looking at the Participation by Id on the graphic below, it’s possible to see that only 12 IDs were active for the total amount of the 31 days. This indicates that the other 21 IDs were not active, or didn’t use their device, for at least 1 day.
