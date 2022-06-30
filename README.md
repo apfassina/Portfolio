@@ -1,3 +1,3 @@
 ## Portfolio
 
-Here you can find my projects done in my data analytics journey.
+Here you can find my projects done in my journey learning data analytics.
