@@ -53,7 +53,7 @@ FROM `bb-fitness1.fitbit_data.new_sleep`
 ;
 
 --summarize totals and join with total of active and not active days
-SELECT t.*, a.days_active, a.days_not_active, a.active_rate
+SELECT tot.*, at.days_active, at.days_not_active, at.active_rate
 FROM (
   SELECT Id, 
   SUM(TotalSteps) AS steps, 
@@ -63,7 +63,7 @@ FROM (
   SUM(TrackerDistance) AS distance,
   FROM `bb-fitness1.fitbit_data.activity_daily`
   GROUP BY Id
-) t
+) tot
 FULL JOIN(
   WITH act AS (
     SELECT Id, COUNT(ActivityDate) AS days_active
@@ -74,8 +74,8 @@ FULL JOIN(
   SELECT *, (31 - act.days_active) AS days_not_active, 100 - (((31 - act.days_active)/31)*100) AS active_rate
   FROM act
   ORDER BY act.days_active
-) a
-ON t.Id = a.Id
+) at
+ON tot.Id = at.Id
 ;
 
 
